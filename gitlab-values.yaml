@@ -1,0 +1,10 @@
+global:
+  edition: ce
+  hosts:
+    domain: mygitlab.com
+    externalIP: "10.10.10.10"
+certmanager-issuer:
+  email: mailto:my-email@example.com
+postgresql:
+  image:
+    tag: 13.6.0
